@@ -23,9 +23,9 @@ jobs:
           java-version: '17'
           cache: 'gradle'
 
-      # Run Tests Build
-      - name: Run gradle tests
-        run: ./gradlew test
+      # Run Build Project
+      - name: Build gradle project
+        run: ./gradlew build
         
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
